@@ -1,0 +1,56 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+}
+.card {
+  background-color: rgb(126, 50, 126);
+  flex: 1; /* Make the card element take up all available space */
+  display: flex; /* Use flexbox to center the content vertically */
+  flex-direction: column; /* Arrange content vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+#question-container {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+ul {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+}
+li {
+  color: black;
+  list-style-type: none;
+  cursor: pointer;
+  background-color: aquamarine;
+  margin: 10px;
+  padding: 5px;
+}
+li:hover {
+  background-color: rgb(180, 231, 214);
+}
+button {
+  background-color: yellow;
+  border: 0;
+  box-shadow: 10px;
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+button:hover {
+  background-color: rgb(237, 237, 154);
+}

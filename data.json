@@ -1,0 +1,74 @@
+{
+  "questions": [
+    {
+      "question": "What is Node.js?",
+      "options": [
+        "A runtime environment for JavaScript outside the browser",
+        "A database management system",
+        "A front-end framework",
+        "A programming language"
+      ],
+      "answer": "A runtime environment for JavaScript outside the browser"
+    },
+    {
+      "question": "Which company developed Node.js?",
+      "options": ["Google", "Facebook", "Microsoft", "Joyent"],
+      "answer": "Joyent"
+    },
+    {
+      "question": "What is npm in Node.js?",
+      "options": [
+        "Node Package Manager",
+        "New Programming Method",
+        "Node Programming Module",
+        "Node Package Module"
+      ],
+      "answer": "Node Package Manager"
+    },
+    {
+      "question": "Which event-driven model does Node.js use?",
+      "options": ["Synchronous", "Asynchronous", "Multithreading", "Parallel"],
+      "answer": "Asynchronous"
+    },
+    {
+      "question": "Which of the following is NOT a core module in Node.js?",
+      "options": ["fs", "http", "crypto", "angular"],
+      "answer": "angular"
+    },
+    {
+      "question": "What is the latest stable version of Node.js as of 2022?",
+      "options": ["v10.x", "v12.x", "v14.x", "v16.x"],
+      "answer": "v16.x"
+    },
+    {
+      "question": "Which of the following is used for debugging Node.js applications?",
+      "options": [
+        "Node Inspector",
+        "Node Debugger",
+        "Node Monitor",
+        "Node Analyzer"
+      ],
+      "answer": "Node Inspector"
+    },
+    {
+      "question": "What is the purpose of the 'require' function in Node.js?",
+      "options": [
+        "To include external libraries",
+        "To declare variables",
+        "To execute asynchronous code",
+        "To create an HTTP server"
+      ],
+      "answer": "To include external libraries"
+    },
+    {
+      "question": "Which programming language is Node.js written in?",
+      "options": ["JavaScript", "Java", "C++", "Python"],
+      "answer": "C++"
+    },
+    {
+      "question": "Which of the following frameworks is NOT built on top of Node.js?",
+      "options": ["Express.js", "React.js", "Meteor.js", "Next.js"],
+      "answer": "React.js"
+    }
+  ]
+}
